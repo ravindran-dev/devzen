@@ -1,0 +1,45 @@
+name: devzen
+description: AI-powered Developer Identity Workspace — built from your Resume and GitHub.
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Typography and UI
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.19.0
+
+  # Markdown support
+  flutter_markdown: ^0.7.2
+
+  # HTTP & Networking
+  http: ^1.2.1
+  dio: ^5.7.0
+
+  # File Picking (resume upload)
+  file_picker: ^8.1.2
+
+  # Secure token storage
+  flutter_secure_storage: ^9.2.2
+
+  # Utility packages
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/logo.png
